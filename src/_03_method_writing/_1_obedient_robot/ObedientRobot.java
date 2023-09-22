@@ -16,7 +16,6 @@ public class ObedientRobot {
 		rob.penDown();
 
 		rob.setSpeed(60);
-		
 		if (y.equals("red")) {
 			rob.setPenColor(Color.red);
 		}
