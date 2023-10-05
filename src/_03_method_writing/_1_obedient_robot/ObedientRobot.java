@@ -11,11 +11,11 @@ public class ObedientRobot {
 	public static void main(String[] args) {
 		String x =	JOptionPane.showInputDialog("What shape do you want circle, triangle, or square.");
 		String y = JOptionPane.showInputDialog("What color red, green, or blue?");
-		
+
 		rob.hide();
 		rob.penDown();
 
-		rob.setSpeed(60);
+		rob.setSpeed(70);
 		if (y.equals("red")) {
 			rob.setPenColor(Color.red);
 		}
@@ -24,7 +24,8 @@ public class ObedientRobot {
 		}
 		if (y.equals("blue")) {
 			rob.setPenColor(Color.blue);
-			
+
+
 		}
 		if (x.equals("square")) {
 			drawSquare();
@@ -51,8 +52,9 @@ public class ObedientRobot {
 			rob.turn(120); 
 		}
 	}
+
 	static void drawCircle() {
-		for( int i = 0; i < 45; i ++) {
+		for( int i = 0; i < 120; i ++) {
 			rob.move(10);
 			rob.turn(10);
 		}

@@ -58,15 +58,16 @@ public class Loop {
 			}
 			System.out.println();
 		}
+		//Loop 11
 		for ( int i = 1; i < 7; i++) {
 			for (int j = 0; j < i ; j++) {
 		//		System.out.print("* ");
 			}
 			System.out.println();	
 		}
-		//Loop 11
-		for ( int i = 0; i < 100; i++) {
-			System.out.println(100 - i );
+		//Loop 12 
+		for (int i = 0; i < 100; i++) {
+			System.out.println(100 - i); 
 		}
 
 	}
